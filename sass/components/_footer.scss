@@ -1,0 +1,99 @@
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px;
+    font-family: $text-font;
+    font-style: normal;
+    background-color: $footer-color;
+}
+.adres li:not(:last-child) {
+    margin-bottom: 9px;
+}
+.footer-content {
+    display: flex;
+    align-items: baseline;
+}
+.social-footer {
+    @extend %flex-center;
+    margin-top: 20px;
+}
+.footer-adres {
+   /* width: 231px; */
+   display: block;
+}
+.footer-block {
+    width: 206px;
+    margin-left: 70px;
+}
+.subscription {
+    margin-left: 93px;
+}
+.title-footer-block {
+     display: block;
+     margin-top: 12px;
+     margin-bottom: 20px;
+     font-weight: 700;
+     font-size: 14px;
+     line-height: 1.14;
+     color: $hero-text-color;
+     Letter-spacing: 0.03em;
+     text-transform: uppercase;
+}
+.logo-footer {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: $hero-text-color;
+    font-family: $logo-text;
+    font-size: 26px;
+    text-decoration: none;
+}
+.adres {
+    width: 231px;
+    font-size: 14px;
+    line-height: 1.71;
+    color: $adres-color;
+    font-style: normal;
+}
+.location {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.71;
+    color: $hero-text-color;
+    font-style: normal;
+    text-decoration: none;
+}
+.Input {
+    margin: 0;
+    width: 358px;
+    padding: 15px 16px;
+    color: $hero-text-color;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    background-color: $input-color;
+    border: 1px solid $input-color-border;
+    border-radius: 4px;
+}
+.subscription-form {
+    display: flex;
+}
+.sign-button {
+    @extend %flex-center;
+    border: none;
+    padding: 0;
+    margin-left: 12px;
+    width: 200px;
+
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: $hero-text-color;
+    background-color: $accent-color;
+
+    cursor: pointer;
+}
+.signIcon {
+    margin-left: 10px;
+}
