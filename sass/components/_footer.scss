@@ -2,7 +2,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     padding: 60px;
-    font-family: $text-font;
+    // font-family: $text-font;
     font-style: normal;
     background-color: $footer-color;
 }
@@ -43,7 +43,8 @@ footer {
     display: inline-block;
     margin-bottom: 20px;
     color: $hero-text-color;
-    font-family: $logo-text;
+    // font-family: $logo-text;
+    font-weight: 700;
     font-size: 26px;
     text-decoration: none;
 }

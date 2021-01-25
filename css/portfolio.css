@@ -1,3 +1,15 @@
+.social-footer, .sign-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -5,6 +17,35 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
+}
+
+h1, h2, h3, h4 {
+  margin: 0%;
+}
+
+ul {
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: #757575;
+}
+
+p {
+  margin: 0%;
+  padding: 0%;
+}
+
+.list {
+  list-style: none;
+}
+
+body {
+  Letter-spacing: 0.03em;
 }
 
 .section {
@@ -29,18 +70,6 @@
   line-height: 1.16;
   text-align: center;
   margin-bottom: 50px;
-}
-
-.social-footer, .sign-button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 header {
@@ -173,7 +202,7 @@ header {
   padding-top: 24px;
   padding-bottom: 25px;
   color: #000000;
-  font-family: "Raleway,sans-serif";
+  font-weight: 700;
   font-size: 26px;
   text-decoration: none;
 }
@@ -328,7 +357,6 @@ footer {
   margin-left: auto;
   margin-right: auto;
   padding: 60px;
-  font-family: "Roboto,sans-serif";
   font-style: normal;
   background-color: #2F303A;
 }
@@ -380,7 +408,7 @@ footer {
   display: inline-block;
   margin-bottom: 20px;
   color: #FFFFFF;
-  font-family: "Raleway,sans-serif";
+  font-weight: 700;
   font-size: 26px;
   text-decoration: none;
 }
@@ -438,36 +466,5 @@ footer {
 
 .signIcon {
   margin-left: 10px;
-}
-
-h1, h2, h3, h4 {
-  margin: 0%;
-}
-
-ul {
-  margin: 0%;
-  padding: 0%;
-  list-style: none;
-}
-
-a {
-  display: block;
-  text-decoration: none;
-  color: #757575;
-}
-
-p {
-  margin: 0%;
-  padding: 0%;
-}
-
-.list {
-  list-style: none;
-}
-
-body {
-  font-family: "Roboto,sans-serif";
-  color: #757575;
-  Letter-spacing: 0.03em;
 }
 /*# sourceMappingURL=portfolio.css.map */

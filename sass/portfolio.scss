@@ -1,9 +1,11 @@
-@import './base/base';
-@import './base/container';
-
 @import './utils/variables';
-@import './utils/section';
 @import './utils/placeholders';
+@import './base/container';
+@import './base/base';
+
+
+@import './utils/section';
+
 
 @import './components/header';
 @import './components/logo';
