@@ -1,4 +1,4 @@
-.close, .field, .social-item, .client-list, .client-thumb, .social-footer, .sign-button {
+.close, .field, .client-list, .client-thumb, .social-footer, .sign-button, .social-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -645,42 +645,6 @@ header {
   margin-right: 0%;
 }
 
-.social {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 16px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.social-item {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background-color: #FFFFFF;
-  fill: #AFB1B8;
-  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social-item:hover, .social-item:focus {
-  background-color: #2196F3;
-  fill: #FFFFFF;
-}
-
-.social li:not(:last-child) {
-  margin-right: 10px;
-}
-
-.social-footer a {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
 .client-list {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
@@ -821,5 +785,41 @@ footer {
 
 .signIcon {
   margin-left: 10px;
+}
+
+.social-item {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  fill: #AFB1B8;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-item:hover, .social-item:focus {
+  background-color: #2196F3;
+  fill: #FFFFFF;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 16px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.social li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-footer a {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 /*# sourceMappingURL=main.css.map */
